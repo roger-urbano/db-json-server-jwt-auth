@@ -8,7 +8,10 @@ module.exports = (userStorage) => {
       if (userStorage.userExists(session)) {
         console.log('Login Data Valid');
         const token = jwt.tokenGeneration(session);
-        res.status(201).json(token);
+        res.status(201).json({
+          "acces_token": token
+        });
+        // res.status(201).json(token)
       } else {
         console.log('Login attempt failed');
         res.status(401).send('login attempt failed');

@@ -17,7 +17,7 @@ module.exports = (req, res, next) => {
  }
 
 function isLoggedIn(req) {
-  let token = req.get('token');
+  let token = req.get('Authorization');  // capturando authorization del header (antes "token")
   //console.log('token', token);
   let session = jwt.verify(token);
   console.log('Session:\n', session);
