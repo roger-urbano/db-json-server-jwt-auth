@@ -9,7 +9,8 @@ yargs.options({
   file: {
     alias: 'f',
     description: 'Set JSON File',
-    default: './json-samples/default.json'
+    default: './json-samples/default.json',
+    // default: './json-samples/marcadores.json'
   },
   authentication: {
     alias: 'a',
@@ -19,7 +20,7 @@ yargs.options({
   delay: {
     alias: 'd',
     description: 'Miliseconds delay before response',
-    default: '1500'
+    default: '2000'
   }
 });
 
@@ -37,10 +38,12 @@ server.use(jsonServer.bodyParser)
 server.use(middlewares);
 
 // configure user storage in memory
-const userStorage = require('./security/users-storage')({
+const userStorage = require('./security/users-storage')(
+  {
   email: 'user@example.com',
   password: '1234'
-});
+  }
+);
 userStorage.logUsers();
 
 // Route for login

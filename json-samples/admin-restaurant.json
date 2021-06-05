@@ -1,106 +1,106 @@
 {
-    "locals": [
-      {
-        "id": 1,
-        "is_active": true,
-        "name": "Theodore Mitchell",
-        "address": "489 Larkin Hill\\nLake Hellen, NV 20760-9873",
-        "phone": "976316934",
-        "schedule_start": "08:30:00",
-        "schedule_end": "18:00:00",
-        "manager_name": "Mr. Grayce Nicolas DDS",
-        "image_url": null,
-        "latitude": "76.569755",
-        "longitude": "132.665289",
-        "statusResponse": {
-          "code": 200,
-          "message": "OK"
-        }
-      },
-      {
-        "id": 2,
-        "is_active": true,
-        "name": "Pollería el Pollísimo",
-        "address": "Miraflores 478 - Larco",
-        "phone": "25877566",
-        "schedule_start": "10:30:00",
-        "schedule_end": "20:00:00",
-        "manager_name": "Mr. Grayce Nicolas DDS",
-        "image_url": null,
-        "latitude": "76.569755",
-        "longitude": "132.665289",
-        "statusResponse": {
-          "code": 200,
-          "message": "OK"
-        }
-      },
-      {
-        "id": 3,
-        "is_active": true,
-        "name": "La Chola Burguer",
-        "address": "Chorrillos Lt12 Mz4 3 de Octubre ",
-        "phone": "975877412",
-        "schedule_start": "11:30:00",
-        "schedule_end": "10:00:00",
-        "manager_name": "Mr. Grayce Nicolas DDS",
-        "image_url": null,
-        "latitude": "76.569755",
-        "longitude": "132.665289",
-        "statusResponse": {
-          "code": 200,
-          "message": "OK"
-        }
-      },
-      {
-        "id": 4,
-        "is_active": true,
-        "name": "Las Cascadas",
-        "address": "Surco Lt12 Mz4 3 de Tupac ",
-        "phone": "798555623",
-        "schedule_start": "08:30:00",
-        "schedule_end": "15:00:00",
-        "manager_name": "Mr. Grayce Nicolas DDS",
-        "image_url": null,
-        "latitude": "76.569755",
-        "longitude": "132.665289",
-        "statusResponse": {
-          "code": 200,
-          "message": "OK"
-        }
-      },
-      {
-        "id": 5,
-        "is_active": true,
-        "name": "Los Makis",
-        "address": "Chorrillos Lt12 Mz4 3 de Tupac ",
-        "phone": "798555623",
-        "schedule_start": "09:30:00",
-        "schedule_end": "16:00:00",
-        "manager_name": "Mr. Grayce Nicolas DDS",
-        "image_url": null,
-        "latitude": "76.569755",
-        "longitude": "132.665289",
-        "statusResponse": {
-          "code": 200,
-          "message": "OK"
-        }
-      },
-      {
-        "id": 6,
-        "is_active": true,
-        "name": "Comida norteña",
-        "address": "Surco Lt12 Mz4 3 de Tupac ",
-        "phone": "798555623",
-        "schedule_start": "07:30:00",
-        "schedule_end": "20:00:00",
-        "manager_name": "Mr. Grayce Nicolas DDS",
-        "image_url": null,
-        "latitude": "76.569755",
-        "longitude": "132.665289",
-        "statusResponse": {
-          "code": 200,
-          "message": "OK"
-        }
+  "locals": [
+    {
+      "id": 1,
+      "is_active": true,
+      "name": "Theodore Mitchell",
+      "address": "489 Larkin Hill\\nLake Hellen, NV 20760-9873",
+      "phone": "976316934",
+      "schedule_start": "08:30:00",
+      "schedule_end": "18:00:00",
+      "manager_name": "Mr. Grayce Nicolas DDS",
+      "image_url": null,
+      "latitude": "76.569755",
+      "longitude": "132.665289",
+      "statusResponse": {
+        "code": 200,
+        "message": "OK"
       }
-    ]
-  }
+    },
+    {
+      "id": 2,
+      "is_active": true,
+      "name": "Pollería el Pollísimo",
+      "address": "Miraflores 478 - Larco",
+      "phone": "25877566",
+      "schedule_start": "10:30:00",
+      "schedule_end": "20:00:00",
+      "manager_name": "Mr. Grayce Nicolas DDS",
+      "image_url": null,
+      "latitude": "76.569755",
+      "longitude": "132.665289",
+      "statusResponse": {
+        "code": 200,
+        "message": "OK"
+      }
+    },
+    {
+      "id": 3,
+      "is_active": true,
+      "name": "La Chola Burguer",
+      "address": "Chorrillos Lt12 Mz4 3 de Octubre ",
+      "phone": "975877412",
+      "schedule_start": "11:30:00",
+      "schedule_end": "10:00:00",
+      "manager_name": "Mr. Grayce Nicolas DDS",
+      "image_url": null,
+      "latitude": "76.569755",
+      "longitude": "132.665289",
+      "statusResponse": {
+        "code": 200,
+        "message": "OK"
+      }
+    },
+    {
+      "id": 4,
+      "is_active": true,
+      "name": "Las Cascadas",
+      "address": "Surco Lt12 Mz4 3 de Tupac ",
+      "phone": "798555623",
+      "schedule_start": "08:30:00",
+      "schedule_end": "15:00:00",
+      "manager_name": "Mr. Grayce Nicolas DDS",
+      "image_url": null,
+      "latitude": "76.569755",
+      "longitude": "132.665289",
+      "statusResponse": {
+        "code": 200,
+        "message": "OK"
+      }
+    },
+    {
+      "id": 5,
+      "is_active": true,
+      "name": "Los Makis",
+      "address": "Chorrillos Lt12 Mz4 3 de Tupac ",
+      "phone": "798555623",
+      "schedule_start": "09:30:00",
+      "schedule_end": "16:00:00",
+      "manager_name": "Mr. Grayce Nicolas DDS",
+      "image_url": null,
+      "latitude": "76.569755",
+      "longitude": "132.665289",
+      "statusResponse": {
+        "code": 200,
+        "message": "OK"
+      }
+    },
+    {
+      "id": 6,
+      "is_active": true,
+      "name": "Comida norteña",
+      "address": "Surco Lt12 Mz4 3 de Tupac ",
+      "phone": "798555623",
+      "schedule_start": "07:30:00",
+      "schedule_end": "20:00:00",
+      "manager_name": "Mr. Grayce Nicolas DDS",
+      "image_url": null,
+      "latitude": "76.569755",
+      "longitude": "132.665289",
+      "statusResponse": {
+        "code": 200,
+        "message": "OK"
+      }
+    }
+  ]
+}
