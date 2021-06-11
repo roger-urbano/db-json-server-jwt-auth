@@ -9,7 +9,7 @@
       "schedule_start": "08:30:00",
       "schedule_end": "18:00:00",
       "manager_name": "Mr. Grayce Nicolas DDS",
-      "image_url": null,
+      "image_url": "http://localhost:3300/static/images/photo.jpg",
       "latitude": "76.569755",
       "longitude": "132.665289",
       "statusResponse": {
@@ -93,6 +93,24 @@
       "phone": "798555623",
       "schedule_start": "07:30:00",
       "schedule_end": "20:00:00",
+      "manager_name": "Mr. Grayce Nicolas DDS",
+      "image_url": null,
+      "latitude": "76.569755",
+      "longitude": "132.665289",
+      "statusResponse": {
+        "code": 200,
+        "message": "OK"
+      }
+    },
+    {
+      "id": 7,
+      "is_active": false,
+      "name": "Las Cascadas 2",
+      "short_name": "Cascadas 2",
+      "address": "Surco Lt12 Mz4 3 de Tupac ",
+      "phone": "77777777",
+      "schedule_start": "08:30:00",
+      "schedule_end": "18:00:00",
       "manager_name": "Mr. Grayce Nicolas DDS",
       "image_url": null,
       "latitude": "76.569755",

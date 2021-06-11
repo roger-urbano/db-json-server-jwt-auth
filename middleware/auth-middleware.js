@@ -6,10 +6,10 @@ module.exports = (req, res, next) => {
 
     // ACEPTA GET SIN VALIDACIÓN.
     // Validate all GET routes but not /verify
-    // if(req.method === 'GET' && req.path != '/verify') {
-    //   next();
-    //   return true;
-    // }
+    if(req.method === 'GET' && req.path != '/verify') {
+      next();
+      return true;
+    }
 
     if (isLoggedIn(req)) { // add your authorization logic here
       next(); // continue to JSON Server router
@@ -20,7 +20,7 @@ module.exports = (req, res, next) => {
  }
 
 function isLoggedIn(req) {
-  let token = req.get('Authorization');  // capturando authorization del header (antes "token")
+  let token = req.get('Authorization');  // capturando authorization del header (antes era "token")
   //console.log('token', token);
   let session = jwt.verify(token);
   console.log('Session:\n', session);
