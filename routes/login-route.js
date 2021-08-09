@@ -9,7 +9,7 @@ module.exports = (userStorage) => {
         console.log('Login Data Valid');
         const token = jwt.tokenGeneration(session);
         res.status(201).json({
-          "acces_token": token
+          "access_token": token
         });
         // res.status(201).json(token)
       } else {

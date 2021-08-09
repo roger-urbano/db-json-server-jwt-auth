@@ -1,23 +1,6 @@
 {
   "locals": [
     {
-      "id": 1,
-      "is_active": true,
-      "name": "Theodore Mitchell",
-      "address": "489 Larkin Hill\\nLake Hellen, NV 20760-9873",
-      "phone": "976316934",
-      "schedule_start": "08:30:00",
-      "schedule_end": "18:00:00",
-      "manager_name": "Mr. Grayce Nicolas DDS",
-      "image_url": "http://localhost:3300/static/images/photo.jpg",
-      "latitude": "76.569755",
-      "longitude": "132.665289",
-      "statusResponse": {
-        "code": 200,
-        "message": "OK"
-      }
-    },
-    {
       "id": 2,
       "is_active": true,
       "name": "Pollería el Pollísimo",
@@ -37,9 +20,9 @@
     {
       "id": 3,
       "is_active": true,
-      "name": "La Chola Burguer",
-      "address": "Chorrillos Lt12 Mz4 3 de Octubre ",
-      "phone": "975877412",
+      "name": "La Chola Burguer 002",
+      "address": "Lima",
+      "phone": "999999999",
       "schedule_start": "11:30:00",
       "schedule_end": "10:00:00",
       "manager_name": "Mr. Grayce Nicolas DDS",
@@ -49,7 +32,10 @@
       "statusResponse": {
         "code": 200,
         "message": "OK"
-      }
+      },
+      "file": "",
+      "hour": "11:30:00 - 10:00:00",
+      "manager": "Mr. Grayce Nicolas DDS"
     },
     {
       "id": 4,
@@ -76,41 +62,6 @@
       "phone": "798555623",
       "schedule_start": "09:30:00",
       "schedule_end": "16:00:00",
-      "manager_name": "Mr. Grayce Nicolas DDS",
-      "image_url": null,
-      "latitude": "76.569755",
-      "longitude": "132.665289",
-      "statusResponse": {
-        "code": 200,
-        "message": "OK"
-      }
-    },
-    {
-      "id": 6,
-      "is_active": true,
-      "name": "Comida norteña",
-      "address": "Surco Lt12 Mz4 3 de Tupac ",
-      "phone": "798555623",
-      "schedule_start": "07:30:00",
-      "schedule_end": "20:00:00",
-      "manager_name": "Mr. Grayce Nicolas DDS",
-      "image_url": null,
-      "latitude": "76.569755",
-      "longitude": "132.665289",
-      "statusResponse": {
-        "code": 200,
-        "message": "OK"
-      }
-    },
-    {
-      "id": 7,
-      "is_active": false,
-      "name": "Las Cascadas 2",
-      "short_name": "Cascadas 2",
-      "address": "Surco Lt12 Mz4 3 de Tupac ",
-      "phone": "77777777",
-      "schedule_start": "08:30:00",
-      "schedule_end": "18:00:00",
       "manager_name": "Mr. Grayce Nicolas DDS",
       "image_url": null,
       "latitude": "76.569755",

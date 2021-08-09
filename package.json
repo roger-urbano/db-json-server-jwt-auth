@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "node index --file=./json-samples/admin-restaurant.json --port=3300 --authentication=no",
-    "runauth": "node index --file=./json-samples/admin-restaurant.json --port=3300"
+    "serve": "node index --file=./json-samples/admin-restaurant.json --port=3300 --authentication=no",
+    "serve-auth": "node index --file=./json-samples/admin-restaurant.json --port=3300"
   },
   "repository": {
     "type": "git",
