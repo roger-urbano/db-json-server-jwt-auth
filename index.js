@@ -20,7 +20,7 @@ yargs.options({
   delay: {
     alias: 'd',
     description: 'Miliseconds delay before response',
-    default: '3000'
+    default: '2000'
   }
 });
 
